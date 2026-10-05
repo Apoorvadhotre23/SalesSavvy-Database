@@ -199,3 +199,94 @@ SET name = 'Classic Blue Straight Fit Jeans',
     stock = 20
 WHERE product_id = 15;
 
+-- Mobiles --
+
+INSERT INTO products
+(name, description, price, stock, category_id)
+VALUES
+(
+    'Black Dual Camera Smartphone',
+    'Sleek black smartphone featuring a dual rear camera setup and a modern premium design, suitable for everyday use.',
+    24999.00,
+    12,
+    4
+),
+(
+    'Black Triple Camera Smartphone',
+    'Modern black smartphone featuring a triple rear camera setup and a sleek design for everyday mobile use.',
+    32999.00,
+    10,
+    4
+),
+(
+    'Blue Dual Camera Smartphone',
+    'Stylish blue smartphone featuring a dual rear camera setup and a clean modern design, suitable for everyday use.',
+    19999.00,
+    15,
+    4
+),
+(
+    'Black Premium Triple Camera Smartphone',
+    'Premium black smartphone featuring a triple rear camera setup and an elegant modern design.',
+    39999.00,
+    8,
+    4
+);
+
+INSERT INTO products
+(name, description, price, stock, category_id)
+VALUES
+(
+    'Black Single Camera iPhone',
+    'Black Apple iPhone featuring a single rear camera, Apple logo and a simple glossy back design.',
+    24999.00,
+    10,
+    4
+),
+(
+    'Blue Dual Camera iPhone',
+    'Bright blue Apple iPhone featuring two vertically arranged rear cameras, a smooth back panel and Apple logo.',
+    49999.00,
+    10,
+    4
+),
+(
+    'Blue Gradient Huawei Triple Camera Smartphone',
+    'Huawei smartphone featuring a blue-to-purple gradient back, vertically arranged triple rear cameras and a rear-mounted fingerprint sensor.',
+    22999.00,
+    15,
+    4
+),
+(
+    'Full-Screen Smartphone',
+    'Modern smartphone featuring a large edge-to-edge display with a pill-shaped front camera cutout and slim bezels.',
+    34999.00,
+    12,
+    4
+);
+
+
+INSERT INTO products
+(name, description, price, stock, category_id)
+VALUES
+(
+    'Black Full-Screen Smartphone',
+    'Modern black front-display smartphone featuring a large edge-to-edge screen, pill-shaped front camera cutout and slim bezels.',
+    34999.00,
+    12,
+    4
+),
+(
+    'Silver Full-Screen Smartphone',
+    'Modern smartphone featuring a silver metallic frame, large edge-to-edge display, flat sides and a sleek premium design.',
+    39999.00,
+    10,
+    4
+),
+(
+    'Silver Full-Screen Smartphone',
+    'Premium smartphone featuring a silver metallic frame, flat-edge design, large front display and slim screen bezels.',
+    42999.00,
+    10,
+    4
+);
