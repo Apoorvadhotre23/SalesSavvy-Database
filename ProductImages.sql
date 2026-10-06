@@ -32,11 +32,25 @@ VALUES
 (22, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196255/Pant_11.jpg");
 
 
+-- Mobiles --
+INSERT INTO productimages (product_id, image_url)
+VALUES
+(23, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196639/Mobile_01.jpg"),
+(24, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196637/Mobile_02.jpg"),
+(25, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196634/Mobile_03.jpg"),
+(26, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196631/Mobile_04.jpg"),
+(27, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196628/Mobile_05.jpg"),
+(28, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196628/Mobile_06.jpg"),
+(29, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196624/Mobile_07.jpg"),
+(30, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196624/Mobile_08.jpg"),
+(31, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196617/Mobile_09.jpg"),
+(32, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196615/Mobile_10.jpg"),
+(33, "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196763/Shoe_02.jpg");
+
+update productimages
+set image_url = "https://res.cloudinary.com/xqxcgw4j/image/upload/v1790196763/Shoe_02.jpg"
+where image_id = 33;
 
 
 
 
-
-
-
-(16, "")
