@@ -290,3 +290,57 @@ VALUES
     10,
     4
 );
+
+-- Acessories--
+
+INSERT INTO products
+(name, description, price, stock, category_id)
+VALUES
+(
+    'Maroon Casual Sneakers',
+    'Maroon low-top lace-up sneakers featuring a white side stripe, contrast stitching and a thick white rubber sole, suitable for everyday casual wear.',
+    1499.00,
+    20,
+    3
+),
+(
+    'Light Grey Casual Cap',
+    'Light grey baseball-style cap featuring a curved brim, structured panel design and a small embroidered laurel-style logo on the front.',
+    599.00,
+    25,
+    3
+);
+
+INSERT INTO products
+(name, description, price, stock, category_id)
+VALUES
+(
+    'White Mesh Trucker Cap',
+    'White trucker-style cap with a solid front panel, curved brim and breathable mesh panels on the back.',
+    499.00, 25, 3
+),
+(
+    'Beige Casual Baseball Cap',
+    'Beige baseball cap with a textured fabric finish, six-panel construction, top button and curved brim.',
+    549.00, 25, 3
+),
+(
+    'Neon Green Sports Shoes',
+    'Neon green athletic lace-up shoes featuring a breathable upper, black detailing and a thick cushioned white-and-black sole.',
+    1999.00, 20, 3
+),
+(
+    'Dark Green Ribbed Crew Socks',
+    'Dark green crew-length socks featuring a ribbed texture and simple solid design for everyday wear.',
+    299.00, 30, 3
+),
+(
+    'Beige and White Casual Sneakers',
+    'Low-top lace-up sneakers featuring beige and white panels, a small orange heel accent and a clean white rubber sole.',
+    1699.00, 18, 3
+),
+(
+    'Light Grey Ribbed Crew Socks',
+    'Light grey crew-length socks featuring ribbed detailing and black text accents, suitable for casual and everyday wear.',
+    299.00, 30, 3
+);
